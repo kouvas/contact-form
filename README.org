@@ -1,19 +1,8 @@
+#+NAME: vasilisk
+#+TITLE: PG Anakenisi
+#+STARTUP: indent
+
+
 For data validation also look at https://funcool.github.io/struct/latest/. Supports schemas etc
 
 
-
-* Testing
-  #+begin_src http :pretty
-    POST https://bnodafauxe.execute-api.eu-central-1.amazonaws.com/Alpha/dev
-    Content-Type: application/json
-              
-    {
-      "name": "Vasilis",
-      "email": "email@example.com",
-      "message": "fuck you",
-      "phone": "23423423432"
-    }
-  #+end_src
-
-  
-  
