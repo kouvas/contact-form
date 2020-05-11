@@ -57,7 +57,7 @@
         [:input.input.is-info {:field :text :id :name :placeholder "όνομα...."
                                :validator (fn [doc]  ;; returns a class "is-success", for input div, if fn evaluates to true
                                             (when
-                                                (-> not doc :name is-valid-name?)
+                                                (->  doc :name is-valid-name?)
                                       ["is-success"]))}]
         [:span.icon.is-small.is-right [:i.fas.fa-envelope]]]
        [:p.help.is-danger {:field :alert :id :name :event (fn [name]  ;; renders warning paragraph when evaluated to true
